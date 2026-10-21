@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Drive | Luxury Car Rental</title>
+    <meta
+      name="description"
+      content="Aurora Drive offers luxury car rental with premium vehicles, smooth booking, and elite travel experiences."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader-ring"></div>
+    </div>
+
+    <div class="page-shell" id="pageShell">
+      <header class="topbar">
+        <div class="container nav">
+          <a href="#" class="brand" aria-label="Aurora Drive">
+            <span class="brand-mark">AD</span>
+            <span>Aurora</span>
+          </a>
+
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#booking">Booking</a>
+            <a href="#fleet">Fleet</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#reviews">Reviews</a>
+          </nav>
+
+          <div class="nav-cta">
+            <a href="tel:+1234567890" class="phone">+1 (234) 567-890</a>
+            <a href="#reserve" class="btn btn-primary">Book Now</a>
+            <button class="mobile-toggle" aria-label="Open navigation">☰</button>
+          </div>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-content reveal">
+              <span class="badge">Luxury mobility</span>
+              <h1>
+                Drive the
+                <span class="highlight">premium life</span>
+                beyond limits.
+              </h1>
+              <p>
+                Experience elite comfort, seamless rentals, and a curated luxury fleet designed for premium business travel,
+                weekend escapes, and unforgettable journeys.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#reserve" class="btn btn-primary">Reserve Your Car</a>
+                <a href="#fleet" class="btn btn-secondary">Explore Fleet</a>
+              </div>
+
+              <div class="hero-stats">
+                <div class="stat">
+                  <strong data-target="12000">0</strong>
+                  <span>Happy renters</span>
+                </div>
+                <div class="stat">
+                  <strong data-target="49">0</strong>
+                  <span>Average rating</span>
+                </div>
+                <div class="stat">
+                  <strong data-target="24">0</strong>
+                  <span>Road support</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="car-shell">
+                <div class="car-badge">Elite Collection</div>
+                <div class="car-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80"
+                    alt="Luxury sports car"
+                  />
+                  <div class="car-overlay">
+                    <div class="car-meta">
+                      <div class="car-model">
+                        <p>Grand Touring</p>
+                        <h3>BMW M8</h3>
+                      </div>
+                      <div class="car-price">
+                        <span>From</span>
+                        <strong>$320</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="float-card">
+                <div class="float-top">
+                  <span>Reviews</span>
+                  <span>★★★★★</span>
+                </div>
+                <div class="float-rate"><span>4.9</span> / 5</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="brands">
+          <div class="container brand-row">
+            <span>BMW</span>
+            <span>Mercedes</span>
+            <span>Porsche</span>
+            <span>Range Rover</span>
+            <span>Ferrari</span>
+          </div>
+        </div>
+
+        <section class="section story">
+          <div class="container story-grid">
+            <div class="story-card reveal">
+              <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1200&q=80" alt="Luxury car in city" />
+            </div>
+
+            <div class="story-copy reveal">
+              <span class="badge">Our story</span>
+              <h2 style="margin-top: 18px; font-size: clamp(2.4rem, 4vw, 4rem);">
+                Premium rental, tailored for your lifestyle.
+              </h2>
+
+              <p>
+                Aurora Drive was built for people who expect more than just transportation. We curate exceptional vehicles
+                and a service experience that feels elevated from the first click to the final return.
+              </p>
+
+              <p>
+                Whether you’re taking a business trip, planning a luxury weekend escape, or chasing the thrill of a performance car,
+                we create a rental experience that feels seamless, polished, and personal.
+              </p>
+
+              <div class="mini-stats">
+                <div class="mini-stat">
+                  <strong>120+</strong>
+                  <span>Luxury vehicles</span>
+                </div>
+                <div class="mini-stat">
+                  <strong>24/7</strong>
+                  <span>Road support</span>
+                </div>
+                <div class="mini-stat">
+                  <strong>8 yrs</strong>
+                  <span>Premium service</span>
+                </div>
+                <div class="mini-stat">
+                  <strong>98%</strong>
+                  <span>Repeat clients</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <div>
+                <span class="badge">Why choose us</span>
+                <h2>Luxury service with zero hassle.</h2>
+              </div>
+              <p>
+                We blend premium vehicle quality, transparent processes, and attentive support so every trip feels effortless and elevated.
+              </p>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card reveal">
+                <div class="feature-icon">🚘</div>
+                <h3>Elite Fleet</h3>
+                <p>Hand-picked premium vehicles for executive travel, special occasions, and memorable self-drive experiences.</p>
+              </article>
+
+              <article class="feature-card reveal">
+                <div class="feature-icon">🛡️</div>
+                <h3>Protected Rental</h3>
+                <p>Every booking includes verified inspections, premium protection, and support throughout your trip.</p>
+              </article>
+
+              <article class="feature-card reveal">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Access</h3>
+                <p>Quick booking, flexible pickups, and reliable support whenever you need premium mobility.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section booking" id="booking">
+          <div class="container">
+            <div class="booking-box reveal">
+              <div>
+                <span class="badge">Quick booking</span>
+                <h2 style="margin-top: 18px; font-size: clamp(2.3rem, 3vw, 3.5rem);">
+                  Book your premium car in minutes.
+                </h2>
+
+                <form class="booking-form" id="reserve">
+                  <div class="field">
+                    <label for="car">Vehicle</label>
+                    <select id="car">
+                      <option>BMW M8</option>
+                      <option>Mercedes S-Class</option>
+                      <option>Porsche 911</option>
+                      <option>Range Rover</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="pickup">Pickup location</label>
+                    <select id="pickup">
+                      <option>Downtown</option>
+                      <option>Airport</option>
+                      <option>Hotel Lobby</option>
+                      <option>Private address</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="start">Start date</label>
+                    <input id="start" type="date" />
+                  </div>
+
+                  <div class="field">
+                    <label for="end">End date</label>
+                    <input id="end" type="date" />
+                  </div>
+
+                  <div class="field" style="grid-column: 1 / -1;">
+                    <label for="name">Full name</label>
+                    <input id="name" type="text" placeholder="Your name" />
+                  </div>
+
+                  <div class="field" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                      Check Availability
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <aside class="booking-panel">
+                <h3>Drive with confidence.</h3>
+                <p>Every rental includes premium support and a luxurious experience from pickup to return.</p>
+
+                <div class="mini-list">
+                  <div class="mini-item">
+                    <span>Delivery</span>
+                    <strong>Available</strong>
+                  </div>
+                  <div class="mini-item">
+                    <span>Insurance</span>
+                    <strong>Included</strong>
+                  </div>
+                  <div class="mini-item">
+                    <span>Support</span>
+                    <strong>24/7</strong>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section showcase">
+          <div class="container">
+            <div class="section-header reveal">
+              <div>
+                <span class="badge">Curated experience</span>
+                <h2>Designed for the way you move.</h2>
+              </div>
+              <p>
+                Premium comfort, standout design, and an elevated drive that turns routine travel into a memorable experience.
+              </p>
+            </div>
+
+            <div class="showcase-grid">
+              <div class="gallery-main reveal">
+                <div class="gallery-card">
+                  <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1200&q=80" alt="Luxury car in city" />
+                  <div class="gallery-overlay">
+                    <h3>City luxury</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-side reveal">
+                <div class="gallery-card">
+                  <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=900&q=80" alt="Luxury coupe side view" />
+                  <div class="gallery-overlay">
+                    <h3>Signature drive</h3>
+                  </div>
+                </div>
+
+                <div class="gallery-card">
+                  <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=900&q=80" alt="Luxury SUV" />
+                  <div class="gallery-overlay">
+                    <h3>Weekend escape</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section fleet" id="fleet">
+          <div class="container">
+            <div class="section-header reveal">
+              <div>
+                <span class="badge">Our fleet</span>
+                <h2>Choose the right performance for your trip.</h2>
+              </div>
+              <p>
+                From executive sedans to iconic performance cars, our fleet is selected for style, power, and comfort.
+              </p>
+            </div>
+
+            <div class="fleet-grid">
+              <article class="fleet-card reveal">
+                <div class="fleet-image">
+                  <span class="fleet-tag">Sports</span>
+                  <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Porsche 911" />
+                </div>
+                <div class="fleet-info">
+                  <div class="fleet-head">
+                    <h3>Porsche 911</h3>
+                    <div class="fleet-price">$420/day</div>
+                  </div>
+                  <div class="specs">
+                    <span>Automatic</span>
+                    <span>2 seats</span>
+                    <span>3.2s</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="fleet-card reveal">
+                <div class="fleet-image">
+                  <span class="fleet-tag">Executive</span>
+                  <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80" alt="Mercedes S-Class" />
+                </div>
+                <div class="fleet-info">
+                  <div class="fleet-head">
+                    <h3>Mercedes S-Class</h3>
+                    <div class="fleet-price">$380/day</div>
+                  </div>
+                  <div class="specs">
+                    <span>Automatic</span>
+                    <span>5 seats</span>
+                    <span>Hybrid</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="fleet-card reveal">
+                <div class="fleet-image">
+                  <span class="fleet-tag">SUV</span>
+                  <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80" alt="Range Rover" />
+                </div>
+                <div class="fleet-info">
+                  <div class="fleet-head">
+                    <h3>Range Rover</h3>
+                    <div class="fleet-price">$460/day</div>
+                  </div>
+                  <div class="specs">
+                    <span>Automatic</span>
+                    <span>7 seats</span>
+                    <span>AWD</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section pricing" id="pricing">
+          <div class="container">
+            <div class="section-header reveal">
+              <div>
+                <span class="badge">Flexible plans</span>
+                <h2>Simple pricing built for every journey.</h2>
+              </div>
+              <p>
+                Choose a plan that fits your trip, your pace, and the level of luxury you want.
+              </p>
+            </div>
+
+            <div class="pricing-grid">
+              <article class="price-card reveal">
+                <div class="plan">Essential</div>
+                <h3><span class="dollar">$</span>99</h3>
+                <p>Perfect for short city drives and everyday convenience.</p>
+                <ul>
+                  <li>24-hour rental</li>
+                  <li>Unlimited mileage</li>
+                  <li>Basic support</li>
+                </ul>
+                <a href="#reserve" class="btn btn-secondary" style="width: 100%;">Choose Plan</a>
+              </article>
+
+              <article class="price-card featured reveal">
+                <div class="plan">Premium</div>
+                <h3><span class="dollar">$</span>249</h3>
+                <p>Ideal for business travel and elevated weekend escapes.</p>
+                <ul>
+                  <li>Full premium coverage</li>
+                  <li>Priority pickup</li>
+                  <li>Complimentary delivery</li>
+                </ul>
+                <a href="#reserve" class="btn btn-primary" style="width: 100%;">Choose Plan</a>
+              </article>
+
+              <article class="price-card reveal">
+                <div class="plan">Executive</div>
+                <h3><span class="dollar">$</span>420</h3>
+                <p>Luxury performance with concierge-level service and support.</p>
+                <ul>
+                  <li>Luxury fleet access</li>
+                  <li>24/7 concierge support</li>
+                  <li>Express road assistance</li>
+                </ul>
+                <a href="#reserve" class="btn btn-secondary" style="width: 100%;">Choose Plan</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section process">
+          <div class="container">
+            <div class="section-header reveal">
+              <div>
+                <span class="badge">Booking flow</span>
+                <h2>Effortless from booking to return.</h2>
+              </div>
+              <p>
+                Our process is designed to feel refined, transparent, and stress-free from the first click onward.
+              </p>
+            </div>
+
+            <div class="process-grid">
+              <article class="process-card reveal">
+                <div class="step-no">01</div>
+                <h3>Select</h3>
+                <p>Choose the class of car that matches your trip and your style.</p>
+              </article>
+
+              <article class="process-card reveal">
+                <div class="step-no">02</div>
+                <h3>Confirm</h3>
+                <p>Lock in dates, extras, and pricing with full clarity before you go.</p>
+              </article>
+
+              <article class="process-card reveal">
+                <div class="step-no">03</div>
+                <h3>Pickup</h3>
+                <p>Collect your premium vehicle and enjoy a smooth, luxury-first experience.</p>
+              </article>
+
+              <article class="process-card reveal">
+                <div class="step-no">04</div>
+                <h3>Return</h3>
+                <p>Drop it off easily and continue without friction or stress.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="reviews">
+          <div class="container">
+            <div class="testimonials-grid">
+              <div class="testimonial reveal">
+                <div class="stars">★★★★★</div>
+                <p>
+                  “The whole experience felt premium from the first message to the final return.
+                  The car was immaculate, the support was quick, and the entire process felt polished and world-class.”
+                </p>
+
+                <div class="person">
+                  <div class="avatar">RS</div>
+                  <div>
+                    <strong>Rita Stone</strong>
+                    <span>Business traveler</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-box reveal" id="reserve">
+                <span class="badge">Reserve today</span>
+                <h3>Own the road.</h3>
+                <p>
+                  Secure your luxury vehicle and enjoy a smooth premium experience built for comfort and confidence.
+                </p>
+
+                <div class="cta-actions">
+                  <a href="#booking" class="btn btn-secondary">Get quote</a>
+                  <a href="#" class="btn btn-primary">Book now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container footer-inner">
+          <div class="brand">
+            <span class="brand-mark">AD</span>
+            <span>Aurora</span>
+          </div>
+
+          <div class="footer-links">
+            <a href="#fleet">Fleet</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#reviews">Reviews</a>
+          </div>
+
+          <div>© 2026 Aurora Drive</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
